@@ -1,0 +1,25 @@
+{
+  "name": "zabbix-speedtest-trapper",
+  "version": "1.0.0",
+  "description": "Zabbix speedtest trapper using speedtest cli",
+  "homepage": "https://github.com/GidliNet/zabbix-speedtest-trapper#readme",
+  "bugs": {
+    "url": "https://github.com/GidliNet/zabbix-speedtest-trapper/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GidliNet/zabbix-speedtest-trapper.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "cron": "^4.4.0",
+    "speedtest-net": "^2.2.0"
+  }
+}
