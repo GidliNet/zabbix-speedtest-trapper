@@ -19,7 +19,11 @@
     "start": "node index.js"
   },
   "dependencies": {
+    "@bettercorp/node-zabbix-sender": "^2.0.3",
+    "@hola.org/speedtest-net": "^2.2.0-hola.1",
     "cron": "^4.4.0",
-    "speedtest-net": "^2.2.0"
+    "dotenv": "^17.2.3",
+    "speedtest-net": "^1.6.2",
+    "zabbix-promise": "^2.0.2"
   }
 }
