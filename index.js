@@ -17,6 +17,7 @@ function main() {
         const st = speedtest({
           acceptGdpr: true,
           acceptLicense: true,
+serverId:7789
         })
           .then((result) => {
             console.log("Done speedtest...");
