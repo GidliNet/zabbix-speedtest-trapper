@@ -1,5 +1,17 @@
-[
-  {
-    "speedtest_server_id": "2422"
+{
+  "speedtest_config": {
+    "speedtest_server_id": "2422",
+    "acceptGdbpr": true,
+    "acceptLicense": true
+  },
+  "zabbix_trapper_config": {
+    "zabbix_server": "zabbix.example.com",
+    "zabbix_port": 10051,
+    "hosts": [
+      {
+        "hostname": "server1.example.com",
+        "keys": ["speedtest.download", "speedtest.upload", "speedtest.ping"]
+      }
+    ]
   }
-]
+}
