@@ -1,17 +1,18 @@
 {
-  "speedtest_config": {
-    "speedtest_server_id": "2422",
+  "speedTestConfig": {
+    "serverId": "7789",
     "acceptGdbpr": true,
     "acceptLicense": true
   },
-  "zabbix_trapper_config": {
-    "zabbix_server": "zabbix.example.com",
-    "zabbix_port": 10051,
-    "hosts": [
-      {
-        "hostname": "server1.example.com",
-        "keys": ["speedtest.download", "speedtest.upload", "speedtest.ping"]
-      }
-    ]
+  "zabbixTrapperConfig": {
+    "zabbixServerIp": "172.16.4.150",
+    "zabbixPort": 10051,
+    "hosts": {
+      "hostname": "isp-core",
+      "download": "Trapper.Speedtest.Download",
+      "upload": "Trapper.Speedtest.Upload",
+      "jitter": "Trapper.Speedtest.Jitter",
+      "latency": "Trapper.Speedtest.Latency"
+    }
   }
 }
